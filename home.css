@@ -1,0 +1,299 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+#app{
+    color: #505050;
+    box-sizing: border-box;
+}
+.header{
+    height: 180px;
+    background: url(./1.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+.headerbody{
+    height: 36px;
+    line-height: 36px;
+    width: auto;
+    padding: 10px 24px;
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    background:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0));
+    position: relative;
+}
+.headerbody .left{
+    z-index:1;
+}
+.headerbody a{
+    font-size: 14px;
+    color: #fff;
+}
+.headerbody .leftul{
+    display: flex;
+    /* align-items: center; */
+}
+.headerbody .left .left-item{
+    margin-right: 12px;
+}
+.zhuzhanlogo::before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+    width: 18px;
+    height: 18px;
+    background: url(./favicon.ico) no-repeat center center ;
+    background-size: cover;
+}
+.blogo{
+    width: 1630px;
+    height:180px ;
+    margin: 0 auto;
+    position: relative;
+    top: -56px;
+}
+.blogo img{
+    height: 90px;
+}
+.blogo .headerlogo{
+    position: absolute; 
+    bottom: 10px;
+    /* text-align: center; */
+}
+
+.left .leftul .left-item .youxizhongxin{
+    width: 466px;
+    height: 260px;
+    background-color: #fff;
+    position: absolute;
+    top: 56px;
+    left: 76px;
+    display: none;
+    /* display: flex; */
+}
+.youxizhongxinsanjiao::before{
+    content: '';
+    height: 0;
+    width: 0;
+    border: 6px solid transparent;
+    border-bottom-color:#fff;
+    position: absolute;
+    left:76px;
+    top:-12px;
+}
+.youxizhongxin .left{
+    width: 265px;
+    float: left;
+}
+.youxizhongxin .left .shang{
+    width: 240px;
+    height: 128px;
+    margin-left: 12px;
+    margin-top: 12px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.youxizhongxin .left .xia{
+    margin-top: 6px;
+    padding: 0 6px;
+    font-size: 0;
+}
+.youxizhongxin .left .xia a{
+    display: inline-block;
+    width: 84px;
+    height: 108px;
+    padding-top:6px;
+    text-align: center;
+    overflow: hidden;
+    /* font-size: 0; */
+}
+.youxizhongxin .left .xia a:hover{
+    background-color: #e5e9ef;
+}
+.youxizhongxin .left .xia img{
+    width: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 auto;
+}
+.youxizhongxin .left .xia a span{
+    display:inline-block;
+    color: #222;
+    width: 72px;
+    font-size: 12px;
+    height: 40px;
+    line-height: 20px;
+    margin: 4px auto;
+    word-break: break-all;
+    text-align: center;
+}
+.youxizhongxin .right{
+    width: 201px;
+    background-color: black;
+    margin: 12px 0 0 0;
+    background: url(./img/下载中心/line.png) no-repeat left center;
+    float: left;
+
+}
+.youxizhongxin .right .all{
+    padding: 35px 0 0 6px;
+    background: url(./img/下载中心/title.png) no-repeat;
+}
+.youxizhongxin .right .all a{
+    padding-left: 16px;
+    display: block;
+    font-size: 12px;
+    color: #222;
+}
+.youxizhongxin .right .all a:hover{
+    background-color: #e5e9ef;
+    color: #00a1d6;
+}
+.youxizhongxin .right .all  span{
+    display: block;
+    height: 28px;
+    line-height: 28px;
+}
+.youxizhongxin .right .aimage{
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    bottom: 0;
+    left: 442px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.leftul .left-item.youxizhongxin1:hover .youxizhongxin{
+    display: block;
+}
+.xiazailogo::before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2px;
+    width: 18px;
+    height:20px;
+    background: url(./手机.png) no-repeat center center ;
+    /* background-size: cover; */
+}
+.headersearch{
+    width: 500px;
+    z-index:1;
+    box-sizing: border-box;
+    /* border: 1px solid hsla(0,0%,100%,0); */
+    border-radius: 2px;
+    background-color: #fff;
+    padding: 0 36px 0 18px;
+    position: relative;
+}
+.headersearch input{
+    display: block;
+    width: 100%;
+    height: 34px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+}
+
+.searchbiao{
+    width: 48px;
+    height: 36px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: url(./搜索黑.png) no-repeat center center;
+    background-color: #e7e7e7;
+    cursor: pointer;
+}
+.searchbiao:hover{
+    background: url(./搜索蓝.png) no-repeat center center;
+    background-color: #e7e7e7;
+    cursor: pointer;
+}
+.left-item.xiazai{
+    position: relative;
+}
+.xiazaiimage{
+    width: 280px;
+    height: 212px;
+    position: absolute;
+    top: 44px;
+    left: -103px;
+    background: url(./img/app-download.png) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    display: none;
+}
+.xiazaiimage::before{
+    content: '';
+    height: 0;
+    width: 0;
+    border: 6px solid transparent;
+    border-bottom-color:#fff;
+    position: absolute;
+    top: -10px;
+    left:134px;
+}
+.xiazaiimage p{
+    position: relative;
+    top:162px;
+}
+.left-item.xiazai:hover .xiazaiimage{
+    display: block;
+}
+.user{
+    width: 231px;
+    z-index:1;
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+}
+.user .left{
+    width: 117px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid silver;
+}
+.user .right{
+    text-align: center;
+    width: 100px;
+    margin-left: 14px;
+    background-color: #fb7299;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.lianxikefu{
+    position: fixed;
+    left: 0;
+    top: 50%;
+    width: 12px;
+    height: 54px;
+    display: inline-block;
+    font-size: 12px;
+    color: #505050;
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+    box-shadow: 0 6px 10px 0 #e7e7e7;
+    border-radius: 0 2px 2px 0;
+    padding: 8px 7px;
+    line-height: 13px;
+}
+.lianxikefu:hover{
+    background-color: #f4f4f4;
+}
