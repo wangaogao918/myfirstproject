@@ -6,4 +6,5 @@ aimage1.addEventListener('mouseover',(e)=>{
 aimage1.addEventListener('mouseout',(e)=>{
     aimage.style.background='';
 })
-let test=document.querySelector('.test')
+
+
