@@ -8,5 +8,6 @@ aimage1.addEventListener('mouseout',(e)=>{
 })
 for (let i = 0; i < 5; i++) {
    console.log(i)
+    console.log("你为何如此优秀")
 }
 
