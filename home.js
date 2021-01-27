@@ -6,5 +6,7 @@ aimage1.addEventListener('mouseover',(e)=>{
 aimage1.addEventListener('mouseout',(e)=>{
     aimage.style.background='';
 })
-
+for (let i = 0; i < 5; i++) {
+   console.log(i)
+}
 
